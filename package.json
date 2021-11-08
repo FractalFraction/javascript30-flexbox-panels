@@ -1,0 +1,22 @@
+{
+  "name": "javascript30-flexbox-panels",
+  "version": "1.0.0",
+  "description": "The fifth challenge in the javascript30 series. Building a flexbox panel!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FractalFraction/javascript30-flexbox-panels.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FractalFraction/javascript30-flexbox-panels/issues"
+  },
+  "homepage": "https://github.com/FractalFraction/javascript30-flexbox-panels#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}

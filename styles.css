@@ -1,0 +1,98 @@
+@font-face { 
+  font-family: CraftyNotes;
+  src: url(CraftyNotesRegular-9YW77.ttf);
+  font-weight: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: CraftyNotes;
+  font-size: 50px;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.5rem;
+  color: antiquewhite;
+}
+
+img {
+  padding: 0;
+  overflow: hidden;
+  width: 25vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.panels {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-grow: 1;
+  gap: 0px;
+}
+
+.panel {
+  margin: 0;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.panel.panel1 {
+  background: url("images/bridge.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.panel.panel2 {
+  background: url("images/canal.jpg");
+}
+
+.panel.panel3 {
+  background: url("images/thecity.jpg");
+}
+
+.panel.panel4 {
+  background: url("images/underground.jpg");
+}
+
+.panel:hover {
+  flex-grow: 8;
+  transition: flex-grow 1s ease-in-out 0s;
+}
+
+.panel:hover > .bottom, .panel:hover > .top {
+  flex-basis: auto;
+  visibility: visible;
+  color: aliceblue;
+  text-shadow: 1px 1px black;
+  transition: visibility 2s linear 0.2s, color 2s linear 0.2s;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  color: antiquewhite;
+  text-shadow: 1px 1px black;
+}
+
+.bottom, .top {
+  flex-basis: 0;
+  visibility: hidden;
+  color: #c014c0;
+  text-shadow: 1px 1px black;
+}
+
+
+
+
+
